@@ -1,6 +1,6 @@
-# Descarga_MC_AFIP
+# Subir archivos de Controladores Fiscales
 
-Bot de descarga de Mis Comprobantes Emitidos y Recibidos del servicio Mis Comprobantes de AFIP de manera masiva.
+Bot de carga de archivos de Controladores Fiscales a AFIP de manera masiva.
 
 ---
 
