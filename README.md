@@ -63,8 +63,6 @@ Los pasos para ejecutar el bot son los siguientes:
 - En caso que no se guarden los Archivos con el nombre y/o ubicación definidas en el Excel, en la columna ST del Excel se debe colocar "NO" (ST hace referencia a Simulate Type. Es uno de los métodos de ingresar información en los distintos programas).
 
 - Las ubicaciones del Excel deben ir desde el Disco hasta la Ubicación completa con un backslash final (ejemplo: `C:\Users\Agustin Bustos\Desktop\TEST\`)
-  
-  - Los de la ventana emergente inicial van sin el último backslash (ejemplo: `C:\Users\Agustin Bustos\Desktop\Test`) y es importante que esa ubicación exista. Esta ubicación se utiliza solamente cuando la dirección de descarga del Excel este vacío
 
 - Firefox se debe configurar de la siguiente manera:
 
