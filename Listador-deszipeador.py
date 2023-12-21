@@ -2,6 +2,7 @@ from tkinter.filedialog import askdirectory
 import os
 from zipfile import ZipFile
 from tkinter.messagebox import showinfo
+import os
 
 # Lsitar todos los archivos de un directorio y subdirectorios
 def listador(ruta):
@@ -25,8 +26,15 @@ lista_archivos_zip = [x for x in lista_archivos if x.endswith(".zip")]
 
 # Extraer archivos ZIP en una carpeta con el mimsmo nombre del zip
 for z in lista_archivos_zip:
-    with ZipFile(z, 'r') as zipObj:
-        zipObj.extractall(z[:-4])
+    try:
+        with ZipFile(z, 'r') as zipObj:
+            zipObj.extractall(z[:-4])
+    except:
+        # Guardar el archivo que no se pudo descomprimir a un txt (log)
+        with open("error.txt", "a") as f:
+            if not os.path.exists("error.txt"):
+                f.write("Archivo de errores:\n")
+            f.write("%s\n" % z)
 
 # Guardar en un archivo txt
 lista_archivos_2 = listador(directorio)
