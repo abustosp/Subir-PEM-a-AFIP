@@ -50,7 +50,7 @@ Los pasos para ejecutar el bot son los siguientes:
    
    3. Ejecutarlo desde el botón de Run File (hacer click abajo del boton de "Play").
 
-      ![Ejecución del BOT](https://raw.githubusercontent.com/abustosp/Configuraciones/master/Uipath/Run-File.png "Ejecución del BOT")
+      <!-- ![Ejecución del BOT](https://raw.githubusercontent.com/abustosp/Configuraciones/master/Uipath/Run-File.png "Ejecución del BOT") -->
 
 ---
 
